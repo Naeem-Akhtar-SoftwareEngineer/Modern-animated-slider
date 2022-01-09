@@ -1,0 +1,682 @@
+
+
+/*
+-------------------------------------
+Active slider Effects CSS
+-------------------------------------
+*/
+
+
+/* Animate Bottom From Top Css */
+.tnit-tnit-animate-left-from-right{
+    opacity: 0;
+    visibility: hidden;
+    -webkit-transform: translateY(150px);
+       -moz-transform: translateY(150px);
+        -ms-transform: translateY(150px);
+         -o-transform: translateY(150px);
+            transform: translateY(150px);
+}
+.tnit-default-layer-slider .owl-item.active .tnit-tnit-animate-left-from-right{
+    opacity: 1;
+    visibility: visible;
+    transition-delay: 0.4s;
+    -webkit-transition-delay: 0.4s;
+    -moz-transition-delay: 0.4s;
+
+    -webkit-transform: translateY(0);
+       -moz-transform: translateY(0);
+        -ms-transform: translateY(0);
+         -o-transform: translateY(0);
+            transform: translateY(0);
+
+}
+
+
+/* Animate Top From Bottom Css */
+.tnit-animate-right-from-left{
+    opacity: 0;
+    visibility: hidden;
+    /*top: -110px;
+    position: relative;*/
+    -webkit-transform: translateX(100px);
+       -moz-transform: translateX(100px);
+        -ms-transform: translateX(100px);
+         -o-transform: translateX(100px);
+            transform: translateX(100px);
+}
+
+.tnit-default-layer-slider .owl-item.active .tnit-animate-right-from-left{
+    opacity: 1;
+    visibility: visible;
+     transition-delay: 0.7s;
+    -webkit-transition-delay: 0.7s;
+    -moz-transition-delay: 0.7s;
+    -webkit-transform: translateX(0px);
+       -moz-transform: translateX(0px);
+        -ms-transform: translateX(0px);
+         -o-transform: translateX(0px);
+            transform: translateX(0px);
+}
+
+
+/* Animate Left From Right Css */
+.tnit-animate-left-from-right{
+    opacity: 0;
+    visibility: hidden;
+     -webkit-transform: translateX(-100px);
+       -moz-transform: translateX(-100px);
+        -ms-transform: translateX(-100px);
+         -o-transform: translateX(-100px);
+            transform: translateX(-100px);
+}
+.tnit-default-layer-slider .owl-item.active .tnit-animate-left-from-right{
+    opacity: 1;
+    visibility: visible;
+     transition-delay: 0.9s;
+    -webkit-transition-delay: 0.9s;
+    -moz-transition-delay: 0.9s;
+    -webkit-transform: translateX(0px);
+       -moz-transform: translateX(0px);
+        -ms-transform: translateX(0px);
+         -o-transform: translateX(0px);
+            transform: translateX(0px);
+}
+
+
+/* Animate Top From Bottom Css */
+.tnit-animate-top-from-bottom{
+    opacity: 0;
+    visibility: hidden;
+     -webkit-transform: translateY(-100px);
+       -moz-transform: translateY(-100px);
+        -ms-transform: translateY(-100px);
+         -o-transform: translateY(100px);
+            transform: translateY(-100px);
+}
+.tnit-default-layer-slider .owl-item.active .tnit-animate-top-from-bottom{
+    opacity: 1;
+    visibility: visible;
+     transition-delay: 1.1s;
+    -webkit-transition-delay: 1.1s;
+    -moz-transition-delay: 1.1s;
+    -webkit-transform: translateY(0px);
+       -moz-transform: translateY(0px);
+        -ms-transform: translateY(0px);
+         -o-transform: translateY(0px);
+            transform: translateY(0px);
+}
+
+
+
+/* Animate Bottom From Top Css */
+.tnit-animate-bottom-from-top{
+    opacity: 0;
+    visibility: hidden;
+     -webkit-transform: translateY(100px);
+       -moz-transform: translateY(100px);
+        -ms-transform: translateY(100px);
+         -o-transform: translateY(100px);
+            transform: translateY(100px);
+}
+.tnit-default-layer-slider .owl-item.active .tnit-animate-bottom-from-top{
+    opacity: 1;
+    visibility: visible;
+     transition-delay: 1.1s;
+    -webkit-transition-delay: 1.1s;
+    -moz-transition-delay: 1.1s;
+    -webkit-transform: translateY(0px);
+       -moz-transform: translateY(0px);
+        -ms-transform: translateY(0px);
+         -o-transform: translateY(0px);
+            transform: translateY(0px);
+}
+
+/* Animate ZoomIn Css */
+.tnit-animate-zoom-in{
+    opacity: 0;
+    visibility: hidden;
+    -webkit-transform: scale(1.2) rotate(45deg);
+    -moz-transform: scale(1.2) rotate(45deg);
+    -ms-transform: scale(1.2) rotate(45deg);
+    -o-transform: scale(1.2) rotate(45deg);
+    transform: scale(1.2) rotate(45deg);
+}
+.tnit-default-layer-slider .owl-item.active .tnit-animate-zoom-in{
+    opacity: 1;
+    visibility: visible;
+     transition-delay: 0.5s;
+    -webkit-transition-delay: 0.5s;
+    -moz-transition-delay: 0.5s;
+    -webkit-transform: scale(1) rotate(0deg);
+    -moz-transform: scale(1) rotate(0deg);
+    -ms-transform: scale(1) rotate(0deg);
+    -o-transform: scale(1) rotate(0deg);
+    transform: scale(1) rotate(0deg);
+}
+
+
+/*
+Animate Matrix Move From Top */
+.tnit-animate-matrix-move-from-top{
+    opacity: 0;
+    visibility: hidden;
+    transform: matrix(1,-.5,0,1,0,0);
+    -moz-transform: matrix(1,-.5,0,1,0,0);
+    -webkit-transform: matrix(1,-.5,0,1,0,0);
+    transform-origin: left top;
+}
+.tnit-default-layer-slider .owl-item.active .tnit-animate-matrix-move-from-top{
+    visibility: visible;
+    -webkit-transform: matrix(1,0,0,1,0,0);
+    -moz-transform: matrix(1,0,0,1,0,0);
+    transform: matrix(1,0,0,1,0,0);
+    opacity: 1;
+}
+
+/*
+Animate Matrix Move From Bottom */
+.tnit-animate-matrix-move-from-bottom{
+    opacity: 0;
+    visibility: hidden;
+    transform: matrix(0.5,-.7,0,1,0,0);
+    -moz-transform: matrix(0.5,-.7,0,1,0,0);
+    -webkit-transform: matrix(0.5,-.7,0,1,0,0);
+    transform-origin: right bottom;
+}
+.tnit-default-layer-slider .owl-item.active .tnit-animate-matrix-move-from-bottom{
+    visibility: visible;
+    -webkit-transform: matrix(1,0,0,1,0,0);
+    -moz-transform: matrix(1,0,0,1,0,0);
+    transform: matrix(1,0,0,1,0,0);
+    opacity: 1;
+}
+
+/*
+Animate Matrix Move From Left */
+.tnit-animate-matrix-move-from-left{
+    opacity: 0;
+    visibility: visible;
+    transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 10.149, 0, 0.2, 0.7);
+    -webkit-transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -100.149, 0, 0.2, 0.7);
+    -moz-transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 10.149, 0, 0.2, 0.7);
+}
+.tnit-default-layer-slider .owl-item.active .tnit-animate-matrix-move-from-left{
+    visibility: visible;
+    transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 1, 0, 0, 1);
+    transform-origin: 50% 50%;
+    /*-webkit-transform: matrix(1,0,0,1,0,0);
+    -moz-transform: matrix(1,0,0,1,0,0);
+    transform: matrix(1,0,0,1,0,0);*/
+    opacity: 1;
+}
+
+
+/*
+TopFromBottom Css */
+@-webkit-keyframes tnit-animate-move-from-bottom{
+    49% {
+        -webkit-transform: translateY(50px);
+    }
+    50% {
+        opacity: 0;
+        -webkit-transform: translateY(-50px);
+    }
+    51% {
+        transform: translateY(0px);
+        opacity: 1;
+    }
+}
+@-moz-keyframes tnit-animate-move-from-bottom{
+    49% {
+        -moz-transform: translateY(50px);
+    }
+    50% {
+        opacity: 0;
+        -moz-transform: translateY(-50px);
+    }
+    51% {
+        transform: translateY(0px);
+        opacity: 1;
+    }
+}
+@-ms-keyframes tnit-animate-move-from-bottom{
+    49% {
+        -ms-transform: translateY(50px);
+    }
+    50% {
+        opacity: 0;
+        -ms-transform: translateY(-50px);
+    }
+    51% {
+        transform: translateY(0px);
+        opacity: 1;
+    }
+}
+@keyframes tnit-animate-move-from-bottom{
+    49% {
+        transform: translateY(50px);
+    }
+    50% {
+        opacity: 0;
+        transform: translateY(-50px);
+    }
+    51% {
+        transform: translateY(0px);
+        opacity: 1;
+    }
+}
+
+
+/* 
+Animate ToLeftFromRight CSS*/
+@keyframes toLeftFromRight{
+    49%{
+        transform: translateX(200%);
+    }
+    50%{
+        opacity: 0;
+        transform: translateX(50%);
+    }
+    51%{
+        opacity: 1;
+        
+    }
+}
+
+@-webkit-keyframes toLeftFromRight{
+    49%{
+        webkit-transform: translateX(200%);
+    }
+    50%{
+        opacity: 0;
+        webkit-transform: translateX(50%);
+    }
+    51%{
+        opacity: 1;
+        
+    }
+}
+
+@-moz-keyframes toLeftFromRight{
+    49%{
+        -moz-transform: translateX(200%);
+    }
+    50%{
+        opacity: 0;
+        -moz-transform: translateX(50%);
+    }
+    51%{
+        opacity: 1;
+        
+    }
+}
+
+/* 
+Animate ToRightFromLeft CSS*/
+@keyframes toRightFromLeft{
+    49%{
+        transform: translateX(-200%);
+    }
+    50%{
+        opacity: 0;
+        transform: translateX(-50%);
+    }
+    51%{
+        opacity: 1;
+        
+    }
+}
+
+@-webkit-keyframes toRightFromLeft{
+    49%{
+        webkit-transform: translateX(-200%);
+    }
+    50%{
+        opacity: 0;
+        webkit-transform: translateX(-50%);
+    }
+    51%{
+        opacity: 1;
+        
+    }
+}
+
+@-moz-keyframes toRightFromLeft{
+    49%{
+        -moz-transform: translateX(-200%);
+    }
+    50%{
+        opacity: 0;
+        -moz-transform: translateX(-50%);
+    }
+    51%{
+        opacity: 1;
+        
+    }
+}
+
+/* 
+Animate ZoomIn Css*/
+@-webkit-keyframes ZoomIn {
+    49% {
+        -webkit-transform: scale(0);
+    }
+    50% {
+        opacity: 0;
+        -webkit-transform: scale(1);
+    }
+    51% {
+        opacity: 1;
+        -webkit-transform: scale(1.2);
+    }
+}
+@-moz-keyframes ZoomIn {
+    49% {
+        -moz-transform: scale(0);
+    }
+    50% {
+        opacity: 0;
+        -moz-transform: scale(1);
+    }
+    51% {
+        opacity: 1;
+        -moz-transform: scale(1.2);
+    }
+}
+@-ms-keyframes ZoomIn {
+    49% {
+        -ms-transform: scale(0);
+    }
+    50% {
+        opacity: 0;
+        -ms-transform: scale(1);
+    }
+    51% {
+        opacity: 1;
+        -ms-transform: scale(1.2);
+    }
+}
+@keyframes ZoomIn {
+    49% {
+        transform: scale(0);
+    }
+    50% {
+        opacity: 0;
+        transform: scale(1);
+    }
+    51% {
+        opacity: 1;
+        transform: scale(1.2);
+    }
+}
+
+
+/*.tnit-default-layer-slider .owl-item.active .tnit-matrix-effect{
+	transition-delay: 1s;
+	-webkit-transform: matrix(1, 0, 0, 1, 0, -1.7);
+	-moz-transform: matrix(1, 0, 0, 1, 0, -1.7);
+	-ms-transform: matrix(1, 0, 0, 1, 0, -1.7);
+	-o-transform: matrix(1, 0, 0, 1, 0, -1.7);
+	transform: matrix(1, 0, 0, 1, 0, -1.7);
+	width: 100%;
+}*/
+
+
+
+/*
+Animation Keyfranme */
+
+/*.tnit-default-layer-slider .owl-item.active .tnit-animate-left-from-right{
+    transition-delay: 1.5s;
+}
+.tnit-default-layer-slider .owl-item.active .animate-top-from-bottom{
+    transition-delay: 2s;
+}
+.tnit-default-layer-slider .owl-item.active .animate-left-from-right{
+    transition-delay: 2.5s;
+}
+.tnit-default-layer-slider .owl-item.active .vertical-slider-info:before{
+    opacity: 0.45;
+    visibility: visible;
+    transition-delay: 1s;
+    -webkit-transform: translateY(0px);
+    -moz-transform: translateY(0px);
+    transform: translateY(0px);
+}*/
+
+
+
+/*
+Animation Keyframes and effects */
+/*.tnit-animate-object-top-right {
+    position: relative;
+    top: -200px;
+    right: 0;
+    z-index: 1;
+    opacity: 0;
+    visibility: hidden;
+}
+.tnit-animate-object-top-right_v2 {
+    position: relative;
+    top: -150px;
+    right: 300px;
+    z-index: 1;
+    opacity: 0;
+    visibility: hidden;
+}
+.tnit-animate-object-bottom-left{
+	position: relative;
+    bottom: 0; 
+    left: -250px; 
+    opacity: 0;
+    visibility: hidden;
+}
+.tnit-animate-object-bottom-leftCenter{
+	position: relative;
+    bottom: -250px; 
+    left: 250px; 
+    opacity: 0;
+    visibility: hidden;
+}
+.tnit-animate-object-bottom-right{
+	position: relative;
+    bottom: 0;
+    right: -200px; 
+    z-index: 1; 
+    opacity: 0;
+    visibility: hidden;
+}
+.tnit-animate-object-top-left{
+	position: relative;
+    top: -200px;
+    left: 0;
+    z-index: 11;
+    opacity: 0;
+    visibility: hidden;
+}
+.tnit-animate-object-top-left_v2{
+	position: relative;
+    top: -200px;
+    left: 200px;
+    z-index: 11;
+    opacity: 0;
+    visibility: hidden;
+}
+.tnit-animate-object-bottomCenter {
+    position: relative;
+    bottom: 50%;
+    right: 250px;
+    z-index: 1;
+    opacity: 0;
+    visibility: hidden;
+}
+.tnit-animate-object-fadeRightBottom{
+	position: relative;
+    opacity: 0;
+    visibility: hidden;
+    right: -50px;
+    bottom: 0;
+}
+*/
+
+/*.BottomMove{
+    opacity: 0;
+    visibility: hidden; 
+     -webkit-transform: translateY(200px);
+    -moz-transform: translateY(200px);
+    -ms-transform: translateY(200px);
+    transform: translateY(200px);
+}
+.tnit-animate-object-animateZoomIn{
+    opacity: 0;
+    visibility: hidden;
+    -webkit-transform: scale(1.3);
+    -moz-transform: scale(1.3);
+    -ms-transform: scale(1.3);
+    transform: scale(1.3);
+
+}
+.tnit-default-layer-slider .owl-item.active .tnit-animate-object-animateZoomIn{
+    opacity: 1;
+    visibility: visible;
+    -webkit-transform: scale(1);
+    -moz-transform: scale(1);
+    -ms-transform: scale(1);
+    transform: scale(1);
+}
+
+.tnit-default-layer-slider .owl-item.active .tnit-animate-object-top-right{
+    top: 0;
+    opacity: 1;
+    visibility: visible;
+}
+.tnit-default-layer-slider .owl-item.active .tnit-animate-object-top-right_v2{
+    top: 0;
+    opacity: 1;
+    visibility: visible;
+}
+.tnit-default-layer-slider .owl-item.active .tnit-animate-object-bottom-left{
+    left: 0;
+    opacity: 1;
+    visibility: visible;
+}
+.tnit-default-layer-slider .owl-item.active .tnit-animate-object-bottom-leftCenter{
+    bottom: 0;
+    opacity: 1;
+    visibility: visible;
+    transition-delay: 1.2s;
+}
+.tnit-default-layer-slider .owl-item.active .tnit-animate-object-top-left{
+    top: 0;
+    opacity: 1;
+    visibility: visible;
+}
+.tnit-default-layer-slider .owl-item.active .tnit-animate-object-top-left_v2{
+    top: 0;
+    opacity: 1;
+    visibility: visible;
+}
+.tnit-default-layer-slider .owl-item.active .tnit-animate-object-bottom-right{
+    right: 0;
+    opacity: 1;
+    visibility: visible;
+}
+.tnit-default-layer-slider .owl-item.active .tnit-animate-object-bottomCenter{
+    bottom: 35%;
+    opacity: 1;
+    visibility: visible;
+}
+.tnit-default-layer-slider .owl-item.active .BottomMove{
+    transform: translateY(0);
+    opacity: 1;
+    visibility: visible;
+    transition-delay: 2s;
+}
+.tnit-default-layer-slider .owl-item.active .tnit-animate-object-fadeRightBottom{
+    opacity: 1;
+    right: 0;
+    visibility: visible;
+}*/
+
+.tnit-default-layer-slider .owl-item.active .tnit-layer-delay-0-03{
+    transition-delay: 0.3s;
+}
+.tnit-default-layer-slider .owl-item.active .tnit-layer-delay-0-5{
+    transition-delay: 0.5s;
+}
+.tnit-default-layer-slider .owl-item.active .tnit-layer-delay-1{
+    transition-delay: 1s;
+}
+.tnit-default-layer-slider .owl-item.active .tnit-layer-delay-1-3{
+    transition-delay: 1.3s;
+}
+.tnit-default-layer-slider .owl-item.active .tnit-layer-delay-1-5{
+    transition-delay: 1.3s;
+}
+.tnit-default-layer-slider .owl-item.active .tnit-layer-delay-1-6{
+    transition-delay: 1.6s;
+}
+.tnit-default-layer-slider .owl-item.active .tnit-layer-delay-2{
+    transition-delay: 2s;
+}
+.tnit-default-layer-slider .owl-item.active .tnit-layer-delay-2-5{
+    transition-delay: 2.5s;
+}
+.tnit-default-layer-slider .owl-item.active .tnit-layer-delay-3{
+    transition-delay: 3s;
+}
+.tnit-default-layer-slider .owl-item.active .tnit-layer-delay-3-5{
+    transition-delay: 3.5s;
+}
+.tnit-default-layer-slider .owl-item.active .tnit-layer-delay-4{
+    transition-delay: 4s;
+}
+.tnit-default-layer-slider .owl-item.active .tnit-layer-delay-4-5{
+    transition-delay: 4.5s;
+}
+.tnit-default-layer-slider .owl-item.active .tnit-layer-delay-5{
+    transition-delay: 5s;
+}
+.tnit-default-layer-slider .owl-item.active .tnit-layer-delay-5-5{
+    transition-delay: 5.5s;
+}
+.tnit-default-layer-slider .owl-item.active .tnit-layer-delay-6{
+    transition-delay: 6s;
+}
+.tnit-default-layer-slider .owl-item.active .tnit-layer-delay-6-5{
+    transition-delay: 6.5s;
+}
+.tnit-default-layer-slider .owl-item.active .tnit-layer-delay-7{
+    transition-delay: 7s;
+}
+.tnit-default-layer-slider .owl-item.active .tnit-layer-delay-7-5{
+    transition-delay: 7.5s;
+}
+
+.tnit-default-layer-slider .owl-item.active .tnit-layer-delay-8{
+    transition-delay: 8s;
+}
+.tnit-default-layer-slider .owl-item.active .tnit-layer-delay-8-5{
+    transition-delay: 8.5s;
+}
+.tnit-default-layer-slider .owl-item.active .tnit-layer-delay-9{
+    transition-delay: 9s;
+}
+.tnit-default-layer-slider .owl-item.active .tnit-layer-delay-9-5{
+    transition-delay: 9.5s;
+}
+.tnit-default-layer-slider .owl-item.active .tnit-layer-delay-10{
+    transition-delay: 10s;
+}
+
+
+
+.tnit-tnit-animate-left-from-right,.tnit-matrix-effect,.tnit-default-layer-slider img,.tnit-slide-item [class*="tnit-animate-object-"],
+.tnit-slide-item [class*="tnit-animate-"],.tnit-slide-item [class*="tnit-animate-matrix-"],.tnit-layer-wrap-bg-slide-left-effect:before{
+	-webkit-transition: all 0.3s ease-in-out;
+	   -moz-transition: all 0.3s ease-in-out;
+	    -ms-transition: all 0.3s ease-in-out;
+	     -o-transition: all 0.3s ease-in-out;
+	        transition: all 0.3s ease-in-out;
+}

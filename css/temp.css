@@ -1,0 +1,429 @@
+
+/*
+--------------------------------------
+Custom Width CSS
+--------------------------------------
+*/
+
+
+/*
+Layers Columns with static Width */
+.tnit-layer-tem-w100{
+	width: 100px;
+}
+.tnit-layer-tem-w200{
+	width: 200px;
+}
+.tnit-layer-tem-w300{
+	width: 300px;
+}
+.tnit-layer-tem-w400{
+	width: 400px;
+}
+.tnit-layer-tem-w500{
+	width: 500px;
+}
+.tnit-layer-tem-w600{
+	width: 600px;
+}
+.tnit-layer-tem-w700{
+	width: 700px;
+}
+.tnit-layer-tem-w800{
+	width: 800px;
+}
+.tnit-layer-tem-w900{
+	width: 900px;
+}
+.tnit-layer-tem-w1000{
+	width: 1000px;
+}
+.tnit-layer-tem-width-full{
+	width: 100%;
+}
+
+
+/*
+--------------------------------------
+Custom Space for Layers CSS
+--------------------------------------
+*/
+.tnit-layer-tem-space-between-element{
+	margin-bottom: 15px;
+}
+
+
+
+/*
+--------------------------------------
+Custom Space Between Position
+of Layers CSS
+--------------------------------------
+*/
+
+
+/* Between Space CSS */
+.tnit-layer-tem-top-space-20{
+	padding-top: 20px;
+}
+.tnit-layer-tem-bottom-space-50{
+	padding-bottom: 50px;
+}
+.tnit-layer-tem-bottom-space-100{
+	padding-bottom: 100px;
+}
+
+
+/* Space From Top CSS */
+.tnit-layer-tem-position-space-increase-top20{
+	margin-top: 20px;
+}
+.tnit-layer-tem-position-space-increase-top30{
+	margin-top: 30px;
+}
+.tnit-layer-tem-position-space-increase-top50{
+	margin-top: 50px;
+}
+.tnit-layer-tem-position-space-increase-top70{
+	margin-top: 70px;
+}
+.tnit-layer-tem-position-space-increase-top100{
+	margin-top: 100px;
+}
+.tnit-layer-tem-position-space-increase-top120{
+	margin-top: 120px;
+}
+.tnit-layer-tem-position-space-increase-top150{
+	margin-top: 150px;
+}
+.tnit-layer-tem-position-space-increase-top200{
+	margin-top: 200px;
+}
+
+
+/*
+Top Space with Percentage CSS */
+/*.tnit-layer-tem-position-space-increase-topP2{
+	margin-top: 2%;
+}
+.tnit-layer-tem-position-space-increase-topP5{
+	margin-top: 5%;
+}
+.tnit-layer-tem-position-space-increase-topP10{
+	margin-top: 10%;
+}
+.tnit-layer-tem-position-space-increase-topP15{
+	margin-top: 15%;
+}
+.tnit-layer-tem-position-space-increase-topP20{
+	margin-top: 20%;
+}
+.tnit-layer-tem-position-space-increase-topP25{
+	margin-top: 25%;
+}*/
+.tnit-layer-tem-position-space-increase-topP32{
+	top: 32%;
+}
+.tnit-layer-tem-position-space-increase-topP35{
+	top: 35%;
+}
+.tnit-layer-tem-position-space-increase-topP40{
+	top: 40%;
+}
+.tnit-layer-tem-position-space-increase-topP43{
+	top: 43%;
+}
+/*.tnit-layer-tem-position-space-increase-topP45{
+	margin-top: 45%;
+}
+.tnit-layer-tem-position-space-increase-topP50{
+	margin-top: 50%;
+}*/
+
+
+/*
+Top Space with decrease Percentage CSS */
+/*.tnit-layer-tem-position-space-decrease-topP5{
+	margin-top: -5%;
+}
+.tnit-layer-tem-position-space-decrease-topP7{
+	margin-top: -7%;
+}
+.tnit-layer-tem-position-space-decrease-topP10{
+	margin-top: -10%;
+}
+.tnit-layer-tem-position-space-decrease-topP15{
+	margin-top: -15%;
+}
+.tnit-layer-tem-position-space-decrease-topP20{
+	margin-top: -20%;
+}
+.tnit-layer-tem-position-space-decrease-topP25{
+	margin-top: -25%;
+}
+.tnit-layer-tem-position-space-decrease-topP30{
+	margin-top: -30%;
+}*/
+
+
+/* Space From Bottom CSS */
+.tnit-layer-tem-position-space-increase-bottom20{
+	margin-bottom: 20px;
+}
+.tnit-layer-tem-position-space-increase-bottom30{
+	margin-bottom: 30px;
+}
+.tnit-layer-tem-position-space-increase-bottom50{
+	margin-bottom: 50px;
+}
+.tnit-layer-tem-position-space-increase-bottom70{
+	margin-bottom: 70px;
+}
+.tnit-layer-tem-position-space-increase-bottom100{
+	margin-bottom: 100px;
+}
+.tnit-layer-tem-position-space-increase-bottom120{
+	margin-bottom: 120px;
+}
+.tnit-layer-tem-position-space-increase-bottom150{
+	margin-bottom: 150px;
+}
+
+
+/*
+Bottom Space with Percentage CSS */
+.tnit-layer-tem-position-space-increase-bottomP5{
+	bottom: 5%;
+}
+.tnit-layer-tem-position-space-increase-bottomP10{
+	bottom: 10%;
+}
+/*.tnit-layer-tem-position-space-increase-bottomP15{
+	margin-bottom: 15%;
+}
+.tnit-layer-tem-position-space-increase-bottomP20{
+	margin-bottom: 20%;
+}
+.tnit-layer-tem-position-space-increase-bottomP25{
+	margin-bottom: 25%;
+}
+.tnit-layer-tem-position-space-increase-bottomP30{
+	margin-bottom: 30%;
+}
+.tnit-layer-tem-position-space-increase-bottomP35{
+	margin-bottom: 35%;
+}
+.tnit-layer-tem-position-space-increase-bottomP40{
+	margin-bottom: 40%;
+}
+.tnit-layer-tem-position-space-increase-bottomP45{
+	margin-bottom: 45%;
+}
+.tnit-layer-tem-position-space-increase-bottomP50{
+	margin-bottom: 50%;
+}*/
+
+
+
+/* Space From Left CSS */
+.tnit-layer-tem-position-space-increase-left20{
+	margin-left: 20px;
+}
+.tnit-layer-tem-position-space-increase-left30{
+	margin-left: 30px;
+}
+.tnit-layer-tem-position-space-increase-left50{
+	margin-left: 50px;
+}
+.tnit-layer-tem-position-space-increase-left70{
+	margin-left: 70px;
+}
+.tnit-layer-tem-position-space-increase-left100{
+	margin-left: 100px;
+}
+.tnit-layer-tem-position-space-increase-left120{
+	margin-left: 120px;
+}
+.tnit-layer-tem-position-space-increase-left150{
+	margin-left: 150px;
+}
+.tnit-layer-tem-position-space-increase-left200{
+	margin-left: 200px;
+}
+.tnit-layer-tem-position-space-increase-left250{
+	margin-left: 250px;
+}
+.tnit-layer-tem-position-space-increase-left300{
+	margin-left: 300px;
+}
+
+/*
+.tnit-layer-tem-position-space-increase-leftP10{
+	margin-left: 10%;
+}
+.tnit-layer-tem-position-space-increase-leftP15{
+	margin-left: 15%;
+}
+.tnit-layer-tem-position-space-increase-leftP20{
+	margin-left: 20%;
+}
+.tnit-layer-tem-position-space-increase-leftP25{
+	margin-left: 25%;
+}
+.tnit-layer-tem-position-space-increase-leftP30{
+	margin-left: 30%;
+}
+.tnit-layer-tem-position-space-increase-leftP35{
+	margin-left: 35%;
+}
+.tnit-layer-tem-position-space-increase-leftP40{
+	margin-left: 40%;
+}
+.tnit-layer-tem-position-space-increase-leftP45{
+	margin-left: 45%;
+}
+.tnit-layer-tem-position-space-increase-leftP50{
+	margin-left: 50%;
+}*/
+.tnit-layer-tem-position-space-increase-leftP60{
+	left: 60%;
+}
+/*.tnit-layer-tem-position-space-increase-leftP70{
+	margin-left: 70%;
+}
+.tnit-layer-tem-position-space-increase-leftP80{
+	margin-left: 80%;
+}
+.tnit-layer-tem-position-space-increase-leftP90{
+	margin-left: 90%;
+}
+*/
+/* Space From Right CSS */
+.tnit-layer-tem-position-space-increase-right20{
+	margin-left: 20px;
+}
+.tnit-layer-tem-position-space-increase-right30{
+	margin-left: 30px;
+}
+.tnit-layer-tem-position-space-increase-right50{
+	margin-right: 50px;
+}
+.tnit-layer-tem-position-space-increase-right70{
+	margin-right: 70px;
+}
+.tnit-layer-tem-position-space-increase-right100{
+	margin-right: 100px;
+}
+.tnit-layer-tem-position-space-increase-right120{
+	margin-right: 120px;
+}
+.tnit-layer-tem-position-space-increase-right150{
+	margin-right: 150px;
+}
+.tnit-layer-tem-position-space-increase-right200{
+	margin-right: 200px;
+}
+.tnit-layer-tem-position-space-increase-right220{
+	margin-right: 220px;
+}
+.tnit-layer-tem-position-space-increase-right250{
+	margin-right: 250px;
+}
+.tnit-layer-tem-position-space-increase-right300{
+	margin-right: 300px;
+}
+
+
+/* Space Percentage CSS */
+.tnit-layer-tem-position-space-increase-rightP5{
+	right: 5%;
+}
+.tnit-layer-tem-position-space-increase-rightP8{
+	right: 8%;
+}
+.tnit-layer-tem-position-space-increase-rightP10{
+	right: 10%;
+}
+/*.tnit-layer-tem-position-space-increase-rightP12{
+	margin-right: 12%;
+}*/
+.tnit-layer-tem-position-space-increase-rightP15{
+	right: 15%;
+}
+/*.tnit-layer-tem-position-space-increase-rightP20{
+	margin-right: 20%;
+}
+.tnit-layer-tem-position-space-increase-rightP25{
+	margin-right: 25%;
+}*/
+.tnit-layer-tem-position-space-increase-rightP30{
+	right: 30%;
+}
+/*.tnit-layer-tem-position-space-increase-rightP35{
+	margin-right: 35%;
+}
+.tnit-layer-tem-position-space-increase-rightP40{
+	margin-right: 40%;
+}
+.tnit-layer-tem-position-space-increase-rightP45{
+	margin-right: 45%;
+}
+.tnit-layer-tem-position-space-increase-rightP50{
+	margin-right: 50%;
+}
+.tnit-layer-tem-position-space-increase-rightP60{
+	margin-right: 60%;
+}
+.tnit-layer-tem-position-space-increase-rightP70{
+	margin-right: 70%;
+}
+.tnit-layer-tem-position-space-increase-rightP80{
+	margin-right: 80%;
+}
+.tnit-layer-tem-position-space-increase-rightP90{
+	margin-right: 90%;
+}*/
+
+
+/* Space From Top CSS */
+.tnit-layer-tem-position-space-decrease-top20{
+	margin-top: -20px;
+}
+.tnit-layer-tem-position-space-decrease-top30{
+	margin-top: -30px;
+}
+.tnit-layer-tem-position-space-decrease-top50{
+	margin-top: -50px;
+}
+.tnit-layer-tem-position-space-decrease-top70{
+	margin-top: -70px;
+}
+.tnit-layer-tem-position-space-decrease-top100{
+	margin-top: -100px;
+}
+.tnit-layer-tem-position-space-decrease-top120{
+	margin-top: -120px;
+}
+.tnit-layer-tem-position-space-decrease-top150{
+	margin-top: -150px;
+}
+
+
+
+/*
+--------------------------------------
+Content Center, Right, Left CSS
+--------------------------------------
+*/
+
+.tnit-layer-tem-content-center{
+	text-align: center;
+}
+.tnit-layer-tem-content-right{
+	text-align: right;
+}
+.tnit-layer-tem-content-left{
+	text-align: left;
+}
+
+
